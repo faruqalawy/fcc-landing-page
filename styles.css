@@ -1,0 +1,263 @@
+* {
+    font-family: Tahoma, sans-serif;
+    background-color: #eee;
+  }
+  
+  header {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    background-color: #eee;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    gap: 10%;
+  }
+  
+  .nama-produk {
+    font-family: Helvetica;
+    font-size: 30;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+  }
+  
+  .slogan {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 30px
+  }
+  
+  .sec2 {
+    margin-left: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .desc {
+    padding-left: 20px
+  }
+  
+  .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .harga {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    margin: 20px 200px;
+    position: relative;
+  flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .waduh {
+  align-items: center;
+  justify-content: center;
+  }
+  
+  button {
+  background-color: orangered;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  
+  button:hover{
+  opacity:0.9;
+  }
+  
+  footer {
+    background-color: #ddd;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    margin: 0;
+    border: 0;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #ddd;
+    padding-right: 10px;
+  }
+  
+  li {
+    padding-left: 20px;
+    background-color: #ddd;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #ddd;
+  }
+  
+  span {
+    padding-left: 20px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    header {
+      width: ;
+    }
+    
+    .sec1,
+    .sec2,
+    .video,
+    .footer {
+      max-width: 95%px;
+    }
+  
+    button {
+      padding: 15px 32px;
+      font-size: 16px;
+    }
+  
+    .rupiah {
+      font-size: 20px;
+    }
+    .harga {
+      max-width: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    header {
+      width: ;
+    }
+    
+    .sec1,
+    .sec2,
+    .video,
+    .footer {
+      max-width: 
+    }
+    .harga {
+      max-width: 250px;
+    }
+  }
+  
+  @media only screen and (max-width:600px) {
+    header {
+      width: ;
+    }
+    
+    .sec1,
+    .sec2,
+    .video,
+    .footer {
+      max-width: 
+    }
+    .harga {
+      max-width: 200px;
+    }
+  button {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  
+    .rupiah {
+      font-size: 16px
+    }
+  
+    .jenis {
+      font-size: 14
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    header {
+      width: ;
+    }
+    
+    .sec1,
+    .sec2,
+    .video,
+    .footer {
+      max-width: 
+    }
+  
+    button {
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+  
+    .rupiah {
+      font-size: 13px
+    }
+    .harga {
+      max-width: 150px;
+    }
+    .jenis {
+      font-size: 12
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    header {
+      width: ;
+    }
+    
+    .sec1,
+    .sec2,
+    .video,
+    .footer {
+      max-width: 
+    }
+  
+    button {
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+  
+    .rupiah {
+      font-size: 10px
+    }
+    .harga {
+      max-width: 80px;
+    }
+    .jenis {
+      font-size: 8
+    }
+  }
